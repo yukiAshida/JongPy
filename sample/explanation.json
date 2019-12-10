@@ -1,0 +1,57 @@
+
+{
+    "__comment__":{
+
+        "main":[
+            "handは手牌",
+            "ponはポン",
+            "tiはチー",
+            "minkanは明槓",
+            "ankanは暗槓",
+            "winning_methodは和了方法",
+            "winning_tileは和了牌",
+            "waiting_methodは待ち方",
+            "self_windは自風",
+            "field_windは場風",
+            "show_doraはドラ表示牌",
+            "ura_doraは裏ドラ表示牌",
+            "reachはリーチしたかどうか",
+            "dblreachはダブルリーチしたかどうか",
+            "one_panchは一発が付くかどうか",
+            "first_turnは初順かどうか",
+            "last_turnはラス自摸かどうか",
+            "additional_gameは本場数"
+        ]
+    },
+
+    "__format__":{
+
+        "main":[
+            "Tileは牌を表すstr",
+            {
+                "hand": "Tileのlist",
+                "pon": "Tileのlistのlist",
+                "ti": "Tileのlistのlist",
+                "minkan": "Tileのlistのlist",
+                "ankan": "Tileのlistのlist",
+                "winning_method": " 'tumo' or 'ron' or 'chankan' or 'rinsyan' ",
+                "winning_tile": "Tile",
+                "waiting_method": " 'double' or 'single' or 'left' or 'right' or 'center' or 'pair'",
+                "self_wind":"Tile",
+                "field_wind":"Tile",
+                "show_dora":"Tileのlist",
+                "show_uradora":"IDのlist",
+                "reach":"bool",
+                "dbl_reach":"bool",
+                "one_panch":"bool",
+                "first_turn":"bool",
+                "last_turn":"bool",
+                "additional_game":"int"
+            }
+        ],
+
+        "purpose": "win or syanten",        
+        
+        "comment": "色々説明（正しい役名・点数の解答やテストの目的等...）"
+    }
+}

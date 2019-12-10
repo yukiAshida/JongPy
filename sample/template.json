@@ -1,0 +1,27 @@
+{
+    "main": {
+        "hand": "",
+        "pon": [],
+        "ti": [],
+        "ankan": [],
+        "minkan": [],
+        "winning_method":"",
+        "winning_tile":"",
+        "waiting_method":"",
+        "self_wind":"",
+        "field_wind":"",
+        "show_dora":"",
+        "show_uradora":"",
+        "reach":false,
+        "dbl_reach":false,
+        "one_panch":false,
+        "first_turn":false,
+        "last_turn":false,
+        "additional_game": 0    
+    },
+
+    "purpose": "win",
+
+    "comment": ""
+    
+}

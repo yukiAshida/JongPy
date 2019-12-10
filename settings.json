@@ -1,0 +1,19 @@
+{
+    "_comment":[
+        "playerはプレイヤー人数(1~4)",
+        "mentsは手牌中の面子数(1~4)",
+        "colorは使用する色の数(1~3)",
+        "number_maxは使用する数牌の最大数(1~9)",
+        "number_minは使用する数牌の最小数(1~9，1推奨)",
+        "zihaiは使用する字牌(東南西北白發中の順にT,N,S,P,Hk,Ht,Ch)"
+        ],
+    "player":4,
+    "ments":4,
+    "color":3,
+    "number_max":9,
+    "number_min":1,
+    "zihai": ["T","N","S","P","Hk","Ht","Ch"],
+    "possible_ti":true,
+    "possible_pon":true,
+    "exist_red":false
+}
